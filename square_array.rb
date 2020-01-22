@@ -1,11 +1,9 @@
 
 
 def square_array(array)
-  array = [1,2,3]
-  array.each { |i| array}
-  
-  
-  
+  new_array = []
+  array.each { |i| new_array << i**2 }
+  new_array
 end
 
 def square_array(array)
